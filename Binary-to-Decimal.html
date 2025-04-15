@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Binary to Decimal Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert any binary number into its decimal equivalent instantly using this free online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Binary to Decimal Converter is a simple yet powerful tool that allows you to convert binary numbers into human-readable decimal values with just a click. Whether you're learning binary, debugging code, or performing digital calculations, this tool helps streamline your work. 
+            <br/><br/>
+            You simply input the binary string, and the converter instantly returns the decimal equivalent. No complex formulas or manual conversions are needed. It’s fast, accurate, and designed for students, developers, and professionals alike.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            
+            <h5 className='font-bold'>What is a binary number?</h5>
+            <p className='!mt-[10px]'>A binary number is a number expressed in the base-2 numeral system, using only digits 0 and 1. It’s commonly used in computing and digital electronics.</p>
+            
+            <h5 className='font-bold'>How do I use this Binary to Decimal Converter?</h5>
+            <p className='!mt-[10px]'>Just enter your binary number into the input box, and the decimal equivalent will appear instantly. It supports both small and large binary values.</p>
+            
+            <h5 className='font-bold'>Is this tool accurate for long binary values?</h5>
+            <p className='!mt-[10px]'>Yes, the converter handles binary values of any length accurately and efficiently, making it suitable for both simple and complex conversions.</p>
+            
+            <h5 className='font-bold'>Do I need to install anything to use this tool?</h5>
+            <p className='!mt-[10px]'>No installation is needed. The tool runs directly in your browser and works across all modern devices and operating systems.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
