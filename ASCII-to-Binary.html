@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">ASCII to Binary Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert any ASCII text into binary code instantly with this fast and accurate online ASCII to Binary converter.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>ASCII to Binary</b> is a free and efficient online tool that converts plain text or characters into binary code with a single click. It helps users understand the binary representation of each ASCII character used in computers and digital systems.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're a developer, student, or tech enthusiast, this tool makes it easy to visualize how machines interpret text at the binary level. Simply type or paste your text and get real-time binary output instantly.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is ASCII?</h5>
+            <p className='!mt-[10px]'>ASCII stands for American Standard Code for Information Interchange. It assigns numeric values to characters so computers can process text.</p>
+            
+            <h5 className='font-bold'>How does this ASCII to Binary tool work?</h5>
+            <p className='!mt-[10px]'>The tool converts each character in your input text to its ASCII decimal value, then converts that decimal to binary form using standard binary encoding.</p>
+            
+            <h5 className='font-bold'>Can I convert binary back to ASCII?</h5>
+            <p className='!mt-[10px]'>This specific tool only converts ASCII to binary. For the reverse conversion, you can use a Binary to ASCII converter tool.</p>
+            
+            <h5 className='font-bold'>Is this tool safe to use for confidential text?</h5>
+            <p className='!mt-[10px]'>Yes, your input is processed client-side, meaning the data never leaves your browser. It's secure and private for all types of text.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
