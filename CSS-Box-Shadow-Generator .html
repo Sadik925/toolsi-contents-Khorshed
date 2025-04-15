@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">CSS Box Shadow Generator</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Create and customize CSS box shadows instantly with live preview and export-ready code.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>CSS Box Shadow Generator</b> helps you visually create beautiful shadow effects on any HTML element. This tool lets you adjust blur, spread, color, offset, and opacity, giving you full control over your box shadows in real time. Perfect for designers and developers aiming to add depth and elevation to web components.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're working on buttons, cards, or containers, this tool simplifies the process by instantly updating the preview and providing copy-paste ready CSS code. Say goodbye to manual trial and error—customize, preview, and copy your perfect shadow in seconds.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            
+            <h5 className='font-bold'>What is a box shadow in CSS?</h5>
+            <p className='!mt-[10px]'>A box shadow is a CSS effect that adds a shadow behind an element's frame to create depth and focus. It's defined using offsets, blur, spread, and color values.</p>
+            
+            <h5 className='font-bold'>Can I use multiple shadows on the same element?</h5>
+            <p className='!mt-[10px]'>Yes, you can apply multiple box shadows to the same element by separating each shadow with a comma in the CSS property.</p>
+            
+            <h5 className='font-bold'>Does this tool support inset shadows?</h5>
+            <p className='!mt-[10px]'>Yes. The tool provides an option to toggle between normal and inset shadows, allowing you to apply shadows inside the element.</p>
+            
+            <h5 className='font-bold'>How do I copy the generated box shadow code?</h5>
+            <p className='!mt-[10px]'>Once you've customized your shadow, the CSS code will appear below the preview area. You can copy it with a single click and paste it into your stylesheet.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
