@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Octal to HEX Converter</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Instantly convert octal numbers to hexadecimal values using this fast, accurate, and user-friendly Octal to HEX conversion tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Octal to HEX Converter is a handy tool for developers, students, and engineers needing a quick and reliable way to convert octal numbers into their hexadecimal format. Just enter an octal number, and the tool instantly returns the corresponding HEX value.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            This tool helps in understanding different number systems used in computing and electronics. It's particularly useful for those working with low-level programming, memory addressing, or debugging hexadecimal-based systems.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is an octal number?</h5>
+            <p className='!mt-[10px]'>An octal number is a base-8 numeral system that uses digits from 0 to 7. It's commonly used in computing, especially for representing file permissions in UNIX.</p>
+            
+            <h5 className='font-bold'>What is a hexadecimal (HEX) number?</h5>
+            <p className='!mt-[10px]'>A hexadecimal number is a base-16 numeral system using digits 0–9 and letters A–F. It’s widely used in programming, especially in memory addresses and color codes.</p>
+            
+            <h5 className='font-bold'>How does this tool convert octal to HEX?</h5>
+            <p className='!mt-[10px]'>The tool first converts the octal input into binary, then the binary is converted into hexadecimal. This ensures accurate and fast conversion every time.</p>
+            
+            <h5 className='font-bold'>Is the Octal to HEX Converter free to use?</h5>
+            <p className='!mt-[10px]'>Yes, this tool is completely free to use with no limitations. It’s browser-based and doesn’t require any installation or sign-up.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
