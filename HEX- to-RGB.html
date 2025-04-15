@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">HEX to RGB Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert HEX color codes to RGB format instantly with this free online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The HEX to RGB Converter is a simple yet powerful tool that transforms HEX color codes into RGB values with accuracy. Whether you're a web designer, developer, or digital artist, this converter saves time and ensures color precision for any project.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Just enter your HEX code (like <b>#FF5733</b>) and get the exact RGB equivalent in real time. It's user-friendly, browser-based, and doesn’t require any installation. Perfect for coding, UI/UX design, and creative workflows.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a HEX color code?</h5>
+            <p className='!mt-[10px]'>A HEX code is a six-digit representation of color used in web design, prefixed by a hash symbol (e.g., #FFFFFF for white).</p>
+            <h5 className='font-bold'>Why convert HEX to RGB?</h5>
+            <p className='!mt-[10px]'>RGB values are commonly used in software that doesn’t accept HEX codes. Converting helps maintain color consistency across platforms.</p>
+            <h5 className='font-bold'>How accurate is this HEX to RGB tool?</h5>
+            <p className='!mt-[10px]'>This tool uses precise color parsing to provide highly accurate RGB values for any valid HEX input.</p>
+            <h5 className='font-bold'>Can I convert shorthand HEX codes?</h5>
+            <p className='!mt-[10px]'>Yes, the tool supports both full (e.g., #AABBCC) and shorthand (e.g., #ABC) HEX codes for conversion.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
