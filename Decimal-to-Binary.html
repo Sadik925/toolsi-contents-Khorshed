@@ -1,0 +1,43 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Decimal to Binary Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily convert any decimal number into its binary equivalent with just one click using this free tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Decimal to Binary Converter is a simple yet powerful tool that instantly translates base-10 numbers into binary code. Whether you're a developer, student, or data enthusiast, this tool simplifies the process of binary conversion, helping you understand how computers interpret numbers behind the scenes.
+            <br><br>
+            With just a single input, you get an accurate binary result without needing to manually divide and track remainders. This tool is a must-have for quick calculations, programming tasks, or learning purposes. It's fast, reliable, and completely free to use.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a decimal number?</h5>
+            <p className='!mt-[10px]'>A decimal number is a base-10 number system that uses digits from 0 to 9. It's the standard system for denoting integers and non-integer numbers.</p>
+
+            <h5 className='font-bold'>What is a binary number?</h5>
+            <p className='!mt-[10px]'>A binary number is a base-2 system that uses only two digits: 0 and 1. Computers use binary to perform calculations and store data.</p>
+
+            <h5 className='font-bold'>How does this converter work?</h5>
+            <p className='!mt-[10px]'>This tool divides the decimal number by 2 repeatedly and tracks the remainders. The binary is formed by reversing the order of the remainders.</p>
+
+            <h5 className='font-bold'>Is this converter accurate and free to use?</h5>
+            <p className='!mt-[10px]'>Yes, it provides instant and accurate results. It's 100% free to use, with no limits or hidden costs.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
