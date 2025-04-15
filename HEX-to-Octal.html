@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">HEX to Octal Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert hexadecimal (base-16) numbers to octal (base-8) format easily and accurately using this quick tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>HEX to Octal Converter</b> is a handy online utility designed to instantly convert hexadecimal numbers into their octal counterparts. Whether you're a developer, student, or tech enthusiast, this tool simplifies base conversions without the need for manual calculation or formulas.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Simply enter your HEX value, and the tool will immediately display the accurate octal result. With its user-friendly interface, it's perfect for quick lookups, learning, and debugging binary-related data across platforms.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a HEX to Octal converter?</h5>
+            <p className='!mt-[10px]'>It is an online tool that converts hexadecimal numbers (base-16) into octal numbers (base-8) instantly and accurately.</p>
+
+            <h5 className='font-bold'>Why would someone convert HEX to Octal?</h5>
+            <p className='!mt-[10px]'>Developers or students working with digital systems often use base conversions to understand or format data for various computing needs.</p>
+
+            <h5 className='font-bold'>Is this converter accurate for large HEX values?</h5>
+            <p className='!mt-[10px]'>Yes, the converter handles both small and large hexadecimal values accurately, regardless of length or complexity.</p>
+
+            <h5 className='font-bold'>Do I need to install anything to use this tool?</h5>
+            <p className='!mt-[10px]'>No installation is required. This tool is fully web-based and works directly from your browser for maximum convenience.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
