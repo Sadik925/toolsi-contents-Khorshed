@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Text to Binary Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert any plain text into binary code instantly using our free online Text to Binary tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>Text to Binary Converter</b> is a handy tool that transforms any text input into its binary equivalent using standard ASCII values. Whether you're working with programming, encryption, or just curious about how binary works, this tool delivers quick and accurate results.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Simply enter your text, and the tool will instantly display its binary representation. This converter is perfect for students, developers, and digital enthusiasts looking to understand the basic data encoding process used in computing.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>How does the Text to Binary converter work?</h5>
+            <p className='!mt-[10px]'>It converts each character in the input text to its ASCII value, then transforms that value into an 8-bit binary format.</p>
+
+            <h5 className='font-bold'>Is the tool free to use?</h5>
+            <p className='!mt-[10px]'>Yes, our Text to Binary Converter is completely free with no usage limits or sign-ups required.</p>
+
+            <h5 className='font-bold'>Can I convert binary back to text?</h5>
+            <p className='!mt-[10px]'>No, this specific tool only supports text to binary. However, we offer a separate Binary to Text converter for that purpose.</p>
+
+            <h5 className='font-bold'>Is this tool secure for sensitive information?</h5>
+            <p className='!mt-[10px]'>Yes. All conversions are performed in-browser, meaning no data is sent or stored externally, ensuring complete privacy.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
