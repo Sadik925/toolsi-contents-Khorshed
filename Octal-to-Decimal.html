@@ -1,0 +1,43 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Octal to Decimal Converter</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Easily convert octal numbers (base 8) to decimal format (base 10) instantly and accurately using this simple online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Octal to Decimal Converter is a handy tool that lets you convert numbers from base-8 to base-10 with ease. Whether you're a student, programmer, or someone working on a legacy system, this tool saves time and eliminates the need for manual calculations. Simply input your octal number and get the equivalent decimal result instantly.
+            <br /><br />
+            Think of it like translating a language. Octal is one dialect, and decimal is another. Our converter acts as a fluent interpreter that helps you understand and work across both number systems without error. It’s especially useful for those dealing with computer systems, where octal numbers often represent file permissions or encoded data.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is an octal number?</h5>
+            <p className='!mt-[10px]'>An octal number is a base-8 numeral system that uses digits 0 to 7. It's commonly used in computing, especially for representing file permissions in Unix-based systems.</p>
+            
+            <h5 className='font-bold'>How do I convert octal to decimal?</h5>
+            <p className='!mt-[10px]'>To convert manually, multiply each digit by 8 raised to the power of its position, counting from right to left starting at 0. Add the results to get the decimal number.</p>
+            
+            <h5 className='font-bold'>Why use an Octal to Decimal converter?</h5>
+            <p className='!mt-[10px]'>Manual conversions are prone to error and time-consuming. This tool ensures instant, accurate conversions without the need for formulas or calculators.</p>
+            
+            <h5 className='font-bold'>Where is octal still used today?</h5>
+            <p className='!mt-[10px]'>Octal is still used in programming, especially in Unix/Linux file permissions and low-level computing tasks where memory representation is essential.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
