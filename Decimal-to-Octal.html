@@ -1,0 +1,46 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Decimal to Octal Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily convert decimal numbers to octal format using our fast, free, and accurate online conversion tool in seconds.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Decimal to Octal Converter is a powerful online tool designed to instantly transform decimal (base-10) numbers into octal (base-8) format. 
+            Whether you're working on computer science assignments, programming projects, or learning number systems, this tool ensures fast and accurate results every time.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            No need to manually calculate or memorize conversion rules—simply enter your decimal value and get the corresponding octal output. 
+            It’s a reliable solution for developers, students, engineers, and anyone dealing with base conversions regularly.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a decimal number?</h5>
+            <p className='!mt-[10px]'>A decimal number is a number represented in base-10, using digits from 0 to 9. It is the standard numbering system used in everyday life.</p>
+
+            <h5 className='font-bold'>What is an octal number?</h5>
+            <p className='!mt-[10px]'>An octal number uses base-8 and includes digits from 0 to 7. It is commonly used in computing and digital electronics.</p>
+
+            <h5 className='font-bold'>How do I convert decimal to octal manually?</h5>
+            <p className='!mt-[10px]'>To convert manually, divide the decimal number by 8 repeatedly and record the remainders. The octal value is the remainders read in reverse.</p>
+
+            <h5 className='font-bold'>Is this converter accurate for large numbers?</h5>
+            <p className='!mt-[10px]'>Yes, our converter handles both small and large decimal numbers accurately and quickly, making it ideal for complex or bulk conversions.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
