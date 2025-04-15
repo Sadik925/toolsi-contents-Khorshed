@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Decimal to Text Converter</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Instantly convert decimal values into readable text format with ease and accuracy.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Decimal to Text Converter is a free, easy-to-use online tool that allows you to decode decimal numbers into plain, readable text. This is especially helpful for developers, data analysts, or anyone working with ASCII values or encoded text data.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you’re decoding hidden messages or formatting data for human readability, this tool streamlines the process. Simply input your decimal values, hit convert, and see the translated text instantly. No coding knowledge required.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What does the Decimal to Text Converter do?</h5>
+            <p className='!mt-[10px]'>It translates decimal-encoded values into readable text based on the ASCII character table. Each decimal is mapped to a specific character.</p>
+            <h5 className='font-bold'>Who can use this tool?</h5>
+            <p className='!mt-[10px]'>Anyone can use it, including students, developers, data scientists, and hobbyists working with text-based data in decimal form.</p>
+            <h5 className='font-bold'>Is this converter free and secure?</h5>
+            <p className='!mt-[10px]'>Yes, this tool is 100% free and runs in your browser, meaning no data is stored or sent to a server. It’s fast and private.</p>
+            <h5 className='font-bold'>Can I convert multiple decimals at once?</h5>
+            <p className='!mt-[10px]'>Yes, simply enter space-separated or comma-separated decimal numbers and the tool will convert them into the corresponding characters all at once.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
