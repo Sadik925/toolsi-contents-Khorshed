@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Decimal to HEX Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Quickly convert decimal numbers to hexadecimal format with precision and ease using our fast, reliable online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Decimal to HEX Converter allows users to instantly change decimal (base 10) numbers into hexadecimal (base 16) format. This conversion is especially useful for developers, programmers, and students working with digital systems, web development, or color codes in design.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Simply input any valid decimal number into the tool, and the HEX equivalent will be displayed in real time. It saves time and eliminates manual conversion errors, ensuring accurate and fast results without needing to install software or remember formulas.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a hexadecimal number?</h5>
+            <p className='!mt-[10px]'>A hexadecimal number is a base-16 numeral system that uses digits 0–9 and letters A–F. It's commonly used in computing and digital electronics.</p>
+            <h5 className='font-bold'>How do I use the Decimal to HEX converter?</h5>
+            <p className='!mt-[10px]'>Enter your decimal number in the input box. The tool will instantly convert it to its HEX equivalent and show the result below.</p>
+            <h5 className='font-bold'>Why is hexadecimal used in programming?</h5>
+            <p className='!mt-[10px]'>Hexadecimal simplifies binary code, making it easier to read and understand. It's often used for memory addresses and color codes in development.</p>
+            <h5 className='font-bold'>Is there any limit to the number I can convert?</h5>
+            <p className='!mt-[10px]'>Most tools can handle large numbers, but extremely large inputs might be limited by your browser or device capabilities.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
