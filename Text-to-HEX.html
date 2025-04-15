@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Text to HEX Converter</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Convert any plain text into hexadecimal code instantly with this fast, free and simple online Text to HEX tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The <b>Text to HEX Converter</b> transforms regular text into its hexadecimal representation. It’s a handy tool for developers, coders, and security analysts needing accurate HEX values for encoding or troubleshooting purposes.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Just enter your desired text into the input box, and the converter will display the equivalent HEX output immediately. No downloads, no hassle—only clean, readable HEX data you can copy and use anywhere.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a Text to HEX converter?</h5>
+            <p className='!mt-[10px]'>A Text to HEX converter transforms each character in a string into its corresponding hexadecimal value based on ASCII encoding.</p>
+
+            <h5 className='font-bold'>Why would I need to convert text to HEX?</h5>
+            <p className='!mt-[10px]'>Converting text to HEX is useful in programming, debugging, data encoding, and when working with low-level data formats or encryption.</p>
+
+            <h5 className='font-bold'>Is this tool free to use?</h5>
+            <p className='!mt-[10px]'>Yes, this Text to HEX Converter is completely free to use with no limitations or required sign-ups.</p>
+
+            <h5 className='font-bold'>Does the tool support special characters or Unicode?</h5>
+            <p className='!mt-[10px]'>Yes, it supports standard ASCII characters and extended Unicode characters. The tool will convert them to accurate hexadecimal codes accordingly.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
