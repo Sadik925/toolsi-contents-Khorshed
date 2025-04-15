@@ -1,0 +1,46 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">CSS Gradient Generator</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Create stunning CSS gradients in seconds with live preview and copy-ready code.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The CSS Gradient Generator is a simple yet powerful tool that lets you design beautiful gradients without writing code. 
+            Choose between linear and radial gradients, adjust angles, add multiple colors, and instantly see your design come to life.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Once you're satisfied, simply copy the generated CSS code and apply it to your web project. 
+            It’s ideal for designers, developers, and anyone who wants to create smooth, modern background effects quickly and effortlessly.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a CSS Gradient?</h5>
+            <p className='!mt-[10px]'>A CSS gradient is a smooth transition between two or more colors that you can use as a background in web design.</p>
+
+            <h5 className='font-bold'>Can I preview the gradient live?</h5>
+            <p className='!mt-[10px]'>Yes, this tool lets you see your gradient in real-time as you adjust colors, direction, and type.</p>
+
+            <h5 className='font-bold'>Does this tool support radial gradients?</h5>
+            <p className='!mt-[10px]'>Absolutely. You can switch between linear and radial gradients with full customization options.</p>
+
+            <h5 className='font-bold'>How do I use the generated CSS code?</h5>
+            <p className='!mt-[10px]'>Once your gradient looks perfect, copy the CSS snippet provided and paste it into your stylesheet or inline style attribute.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
