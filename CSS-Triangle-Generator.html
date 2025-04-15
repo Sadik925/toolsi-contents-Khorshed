@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">CSS Triangle Generator</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Generate custom CSS triangles instantly using intuitive controls and live preview.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The CSS Triangle Generator is a handy tool that lets you create custom triangle shapes using only CSS border properties. Simply adjust width, height, direction, and color to generate a triangle instantly, along with the required CSS code to copy and use anywhere.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you’re designing pointers, arrows, tooltips, or creative shapes, this generator eliminates the guesswork. With real-time preview and easy controls, it helps developers and designers save time and experiment with shapes visually and efficiently.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a CSS triangle?</h5>
+            <p className='!mt-[10px]'>A CSS triangle is created using the border properties of an element by making three borders transparent and coloring the fourth to form a triangle shape.</p>
+            <h5 className='font-bold'>How do I use this CSS triangle generator?</h5>
+            <p className='!mt-[10px]'>Select the desired direction, set the size and color, then copy the auto-generated CSS code to apply the triangle to your project.</p>
+            <h5 className='font-bold'>Can I create arrows or tooltips with this?</h5>
+            <p className='!mt-[10px]'>Yes, you can use the triangle as arrows or tooltips in UI design by adjusting its position, size, and attaching it to any element.</p>
+            <h5 className='font-bold'>Is the generated CSS compatible with all browsers?</h5>
+            <p className='!mt-[10px]'>Yes, the CSS triangle technique is widely supported across all modern browsers and doesn't require any JavaScript or extra libraries.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
