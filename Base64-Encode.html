@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Base64 Encode</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Instantly convert any string to Base64 format with our fast and secure online Base64 encoder tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Base64 Encode is a free online tool that lets you convert any text or string into Base64 format. Whether you're encoding credentials, files, or data for use in web applications, this tool provides an easy and instant way to perform Base64 encoding securely.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Just paste your input, click the encode button, and get the encoded result in a snap. It's perfect for developers, cybersecurity experts, and anyone needing quick and reliable encoding for transmission or storage purposes.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is Base64 encoding?</h5>
+            <p className='!mt-[10px]'>Base64 encoding is a method of converting binary data into a readable ASCII format. It’s commonly used to encode files or data for transmission over text-based protocols.</p>
+
+            <h5 className='font-bold'>When should I use a Base64 encoder?</h5>
+            <p className='!mt-[10px]'>You should use Base64 encoding when you need to embed image data, encrypt credentials, or transfer binary data safely through text-based mediums such as HTML, CSS, or JSON.</p>
+
+            <h5 className='font-bold'>Is Base64 encryption secure?</h5>
+            <p className='!mt-[10px]'>No. Base64 is not an encryption method—it's an encoding method. It doesn’t provide security or confidentiality; it's simply used for data formatting and transmission.</p>
+
+            <h5 className='font-bold'>Can I decode Base64 encoded strings?</h5>
+            <p className='!mt-[10px]'>Yes, Base64 encoding is fully reversible. You can decode Base64 strings using any decoder tool or programming language that supports Base64 functions.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
