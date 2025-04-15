@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">ASCII to Text Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily convert ASCII codes into readable text with this simple and accurate ASCII to Text Converter online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The ASCII to Text Converter is a free and efficient tool that translates ASCII (American Standard Code for Information Interchange) numerical codes into plain, readable text characters. Whether you're working with encoded messages or analyzing system logs, this tool helps decode ASCII strings instantly.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Simply input the ASCII code separated by spaces or commas, and our converter will render the corresponding characters. Ideal for developers, students, and digital forensic analysts, this tool ensures quick results with accurate conversion every time.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is an ASCII to Text Converter?</h5>
+            <p className='!mt-[10px]'>It’s a tool that transforms ASCII code values into readable characters based on the ASCII standard character set.</p>
+
+            <h5 className='font-bold'>How do I use this tool?</h5>
+            <p className='!mt-[10px]'>Enter ASCII codes separated by spaces or commas into the input box, and the tool will instantly display the translated text.</p>
+
+            <h5 className='font-bold'>What formats of ASCII input are accepted?</h5>
+            <p className='!mt-[10px]'>You can input ASCII codes using decimal numbers separated by spaces, commas, or new lines.</p>
+
+            <h5 className='font-bold'>Can I convert text back to ASCII using this tool?</h5>
+            <p className='!mt-[10px]'>This tool is only for converting ASCII to text. Use a Text to ASCII converter for the reverse process.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
