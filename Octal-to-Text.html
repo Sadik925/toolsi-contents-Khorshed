@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Octal to Text Converter</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Instantly convert octal values into readable text using this free and easy online tool for developers and learners.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Octal to Text Converter allows users to decode octal-encoded strings into human-readable text instantly. Whether you're dealing with legacy systems, learning number systems, or debugging encoded data, this tool simplifies the process. Just input your octal values, and the tool will decode them for you on the fly.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            This tool is highly useful for programmers, educators, and students working with different base number systems. No software installation or registration required—everything happens in your browser with instant results and a clean user-friendly interface.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is an octal number?</h5>
+            <p className='!mt-[10px]'>An octal number is a base-8 number system that uses digits from 0 to 7. It's often used in computing and digital electronics.</p>
+            <h5 className='font-bold'>How do I use the Octal to Text Converter?</h5>
+            <p className='!mt-[10px]'>Enter the octal value in the input box and the tool will convert it into readable text instantly without needing any technical knowledge.</p>
+            <h5 className='font-bold'>Is this converter safe to use?</h5>
+            <p className='!mt-[10px]'>Yes, this tool runs entirely in your browser. None of your input is saved or sent to a server, ensuring complete privacy and safety.</p>
+            <h5 className='font-bold'>Can I convert multiple octal values at once?</h5>
+            <p className='!mt-[10px]'>Yes, you can input a sequence of octal values separated by spaces. The tool will convert them all into the corresponding text output.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
