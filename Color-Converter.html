@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Color Converter | Convert Colors Between HEX, RGB, HSL & More</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily convert colors between HEX, RGB, HSL, and other formats with live preview.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>Color Converter</b> tool lets you convert colors between popular formats like <i>HEX, RGB, RGBA, HSL, HSV, and CMYK</i> with just a few clicks. It's perfect for web designers, developers, and digital artists who need accurate and instant color translations with real-time previews.
+            <br /><br />
+            Just input your color in any supported format, and the tool instantly provides the equivalent values in other formats. With a clean interface and precise conversions, you can ensure color consistency across all your digital and design projects effortlessly.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>What color formats does this tool support?</h5>
+            <p className='!mt-[10px]'>This tool supports conversions between <b>HEX, RGB, RGBA, HSL, HSV, and CMYK</b>. You can input any of these formats and get accurate equivalent values across all others instantly.</p>
+
+            <h5 className='font-bold'>Is the Color Converter free to use?</h5>
+            <p className='!mt-[10px]'>Yes! The Color Converter tool is completely free to use on <i>Helper.studio</i>. No sign-up or installation is required—just input your color values and get instant results for design or development use.</p>
+
+            <h5 className='font-bold'>Can I preview the color I convert?</h5>
+            <p className='!mt-[10px]'>Absolutely. As soon as you enter a color code, the tool shows a <b>live color preview</b> so you can visually confirm the color result across formats before copying it to your project.</p>
+
+            <h5 className='font-bold'>Why is converting between color formats important?</h5>
+            <p className='!mt-[10px]'>Different platforms and tools use different color formats. Accurate conversion helps maintain <b>color consistency</b> in branding, UI/UX design, and printing. This tool ensures your colors stay true across all formats and media.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
