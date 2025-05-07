@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">QR Code Scanner | Scan Any QR Code Instantly Online</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Scan any QR code instantly using your device’s camera with this free online scanner.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The <b>QR Code Scanner tool</b> uses your device’s camera and in-browser scanning technology to detect and decode QR codes instantly. Once camera access is granted, it automatically scans and displays the QR code content without the need for additional software.
+            <br /><br />
+            Use our QR Code Scanner to quickly and securely scan QR codes directly from your device’s camera. Whether it’s a website link, contact info, or payment code, this tool reads it instantly. No downloads or installations are required. Just grant camera access and start scanning in seconds.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>Do I need to download an app to use this scanner?</h5>
+            <p className='!mt-[10px]'>No app is required. Our QR Code Scanner works directly from your web browser. It’s fast, secure, and mobile-friendly—making it a convenient solution for scanning QR codes anytime, anywhere.</p>
+
+           <h5 className='font-bold'>What types of QR codes can this tool scan?</h5>
+           <p className='!mt-[10px]'>Our scanner supports URLs, contact information (vCard's), text, phone numbers, email addresses, Wi-Fi credentials, and more. It detects and decodes most standard QR code types used across business, education, and personal platforms..</p>
+
+            <h5 className='font-bold'>Is the QR Code Scanner safe and private?</h5>
+            <p className='!mt-[10px]'>Yes, the scanner runs entirely in your browser and doesn’t store or transmit your scanned data. It simply reads the QR code and displays the content for your use—keeping your data private and secure.</p>
+
+            <h5 className='font-bold'>What kind of content can be scanned using this tool?</h5>
+            <p className='!mt-[10px]'>You can scan QR codes that link to websites, display text, open emails, show contact details, connect to Wi-Fi, or redirect to apps. The tool accurately decodes a wide variety of standard QR code formats.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
